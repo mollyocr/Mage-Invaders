@@ -1,0 +1,9 @@
+name=Mage Invaders
+author=SquidGodDev + mollyocr + jshbrtz
+description=Pewpew
+bundleID=com.frogbuttinc.Sugmah
+version=1.0
+buildNumber=100
+imagePath=SystemAssets
+pdxversion=11200
+buildtime=713199817
