@@ -13,4 +13,5 @@ end
 function Projectile:update()
 	Projectile.super.update(self)
 	self:moveBy(0, -self.speed)
+	
 end

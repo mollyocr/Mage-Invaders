@@ -20,4 +20,10 @@ function Wizard:ability()
 	if pd.buttonIsPressed(pd.kButtonRight) then
 		self:moveBy(self.teleportDistance, 0)
 	end
+	if pd.buttonIsPressed(pd.kButtonUp) then
+		self:moveBy(0, -self.teleportDistance)
+	end
+	if pd.buttonIsPressed(pd.kButtonDown) then
+		self:moveBy(0, self.teleportDistance)
+	end
 end
